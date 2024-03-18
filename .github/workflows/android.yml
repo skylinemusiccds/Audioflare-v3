@@ -17,5 +17,5 @@ jobs:
         run: ./gradlew assembleDebug
       - uses: actions/upload-artifact@v2
         with:
-          name: AudioFlare.apk
-          path: app/build/outputs/apk/debug/AudioFlare.apk
+          name: app-debug.apk
+          path: app/build/outputs/apk/debug/app-debug.apk
